@@ -16,7 +16,7 @@ public class PlaneGameFrame extends MyFrame {
 	private static final long serialVersionUID = 1L;
 	Image bg;
 	Plane plane;
-	Explode explode=new Explode(50, 50);
+	//Explode explode=new Explode(50, 50);
 	ArrayList<Bullet> bulletList;
 	  Date startTime;
 	  Date endTime;
@@ -62,7 +62,7 @@ public class PlaneGameFrame extends MyFrame {
 						plane.setLive(false);
 						endTime=new Date();
 						liveTime=(int)((endTime.getTime()-startTime.getTime())/1000);
-						explode.draw(g);
+						//explode.draw(g);
 					}	
 					else
 					{
